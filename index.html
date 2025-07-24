@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Samarth IT Solutions</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="img/logo.jpeg" alt="Logo" class="rounded-circle shadow-sm" height="45" />
+        <span class="ms-2 company-name">Samarth IT Solutions</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <nav class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto text-uppercase">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#technologies">Technologies</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero d-flex align-items-center justify-content-center" id="home">
+    <div class="container text-center text-white">
+      <h1>Welcome to Samarth IT Solutions</h1>
+      <p>Your trusted partner in digital transformation.</p>
+      <a href="#services" class="btn">Explore Our Services</a>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="services py-5">
+    <div class="container services-container">
+        <div class="col-md-6">
+            <h2 class="services-title">Services</h2>
+            <p class="services-description">We provide top-tier IT solutions and consulting services to businesses worldwide.</p>
+            <div class="accordion" id="servicesAccordion">
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            Recruitment and Outsourcing of IT Personnel
+                        </button>
+                    </h3>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#servicesAccordion">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Provide highly skilled IT professionals locally and globally.</li>
+                                <li>First CVs available within 24 hours.</li>
+                                <li>Support with relocation and staffing solutions.</li>
+                                <li>Resources available for on-site and remote work.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Executive Search
+                        </button>
+                    </h3>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#servicesAccordion">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Find top-tier leadership and niche-skilled professionals.</li>
+                                <li>Identify and hire senior executives.</li>
+                                <li>Align leadership with company vision and growth.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Outstaffing
+                        </button>
+                    </h3>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#servicesAccordion">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Flexible staffing solutions.</li>
+                                <li>IT specialists available for on-site and remote work.</li>
+                                <li>Seamless integration with your existing teams.</li>
+                                <li>Cost-effective and efficient solutions.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of Services Section -->
+
+
+  <!-- Technologies -->
+  <section class="technologies" id="technologies">
+    <div class="container">
+      <h2 class="section-title">Technologies We Use</h2>
+      <p class="section-description">We work with the latest and most powerful tools.</p>
+      <div class="col g-4">
+        <div class="col-md-4">
+          <div class="p-3 technologiesdiv">SAP-FICO, MM, SD, PP, ABAP, EHS </div>
+        </div><br>
+        <div class="col-md-4">
+          <div class="p-3 technologiesdiv">JavaScript,Node.js, React, Angular, SpringBoot, Microservices API</div>
+        </div><br>
+        <div class="col-md-4">
+          <div class="p-3 technologiesdiv">GO-LANG Developers, Manual Testing, MySQL, PostgreSQL DataBase</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact Us</h2>
+      <p class="section-description">We are here to help you with your next big idea.</p>
+      <div class="accordion" id="contactAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#emailCollapse">
+                📧 Email Us
+            </button>
+          </h2>
+          <div id="emailCollapse" class="accordion-collapse collapse" data-bs-parent="#contactAccordion">
+            <div class="accordion-body">
+              <a href="mailto:Samarthmultiservices496@gmail.com">Samarthmultiservices496@gmail.com</a>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#LocationCollapse">
+                📍 Location 
+              </button>
+            </h2>
+            <div id="LocationCollapse" class="accordion-collapse collapse" data-bs-parent="#contactAccordion">
+              <div class="accordion-body">
+                <p>Apt-1902, Sector-R9, Life Republic, Pune - 411033</p>
+              </div>
+            </div>
+          </div>
+          
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#callCollapse">
+                📞 Call Us 
+            </button>
+          </h2>
+          <div id="callCollapse" class="accordion-collapse collapse" data-bs-parent="#contactAccordion">
+            <div class="accordion-body">
+              <a href="Phone:  +91 7709546493 
+                +91 9561680495">  +91 7709546493 <br>
+                +91 9561680495 </a>
+            </div>
+          </div>
+        </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-4 bg-dark text-light">
+    &copy; 2025 Samarth IT Solutions. All rights reserved.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

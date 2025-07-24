@@ -1,0 +1,179 @@
+body {
+    font-family: 'Times New Roman', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    scroll-behavior: smooth;
+  }
+  
+  section {
+    scroll-margin-top: 90px;
+  }
+  
+  .company-name {
+    color: #f7f6f5;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+  }
+  
+  .company-name::after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 2px;
+    background: #f7f6f5;
+    margin: 5px auto 0;
+    transition: width 0.3s;
+  }
+  
+  .company-name:hover::after {
+    width: 100%;
+  }
+  
+  .hero {
+    background: url('img/slide1.jpg') center/cover no-repeat;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .hero h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero p {
+    font-size: 20px;
+    max-width: 600px;
+    margin: 10px auto;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .btn {
+    background: #ff9800;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background 0.3s, transform 0.2s;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #211e1a;
+    transform: scale(1.05);
+  }
+  
+  .services-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .services-description {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .technologies {
+    background: #fffdfd;
+    padding: 30px 20px;
+  }
+  
+  .section-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .section-description {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .technologiesdiv {
+    border: 2px solid #007bff;
+    padding: 10px; /* Increased padding */
+    margin: 0px;
+    text-align: center;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    min-height: 0px; /* Increased height */
+    font-size: 18px; /* Optional: make text slightly larger */
+    width: auto;
+  }
+  .technologiesdiv:hover {
+    transform: translateY(-5px);
+    background-color: #e2e6ea;
+  }
+  .contact {
+    background-color: #fffdfd;
+    padding: 30px 20px;
+  }
+  
+  .accordion-button {
+    font-weight: bold;
+    background: #007bff;
+    color: white;
+  }
+  
+  .accordion-button:hover {
+    background: #0056b3;
+  }
+  
+  .accordion-body a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .accordion-body a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .hero {
+      height: 60vh;
+    }
+  
+    .hero h1 {
+      font-size: 32px;
+    }
+  
+    .hero p {
+      font-size: 18px;
+    }
+  
+    .company-name {
+      font-size: 16px;
+    }
+  }
+  
