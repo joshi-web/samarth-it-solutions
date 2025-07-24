@@ -33,7 +33,7 @@ body {
   }
   
   .hero {
-    background: url('img/slide1.jpg') center/cover no-repeat;
+    background: url('slide1.jpg') center/cover no-repeat;
     height: 100vh;
     position: relative;
     display: flex;
